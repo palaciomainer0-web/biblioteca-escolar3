@@ -10,6 +10,41 @@
 <body>
 <div class="container py-4">
 <h1 class="text-center mb-4">Biblioteca Escolar</h1>
+  <div class="card p-3 mb-4">
+
+<h4>Agregar Libro</h4>
+
+<input
+id="titulo"
+class="form-control mb-2"
+placeholder="Título">
+
+<input
+id="autor"
+class="form-control mb-2"
+placeholder="Autor">
+
+<select
+id="categoria"
+class="form-select mb-2">
+
+<option>Ficción</option>
+<option>No ficción</option>
+<option>Ciencia</option>
+<option>Tecnología</option>
+<option>Historia</option>
+
+</select>
+
+<button
+class="btn btn-primary"
+onclick="agregarLibro()">
+
+Agregar Libro
+
+</button>
+
+</div>
 
 <button class="btn btn-dark mb-3" onclick="cambiarTema()">Tema Claro/Oscuro</button>
 
